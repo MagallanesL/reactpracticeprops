@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Usuarios from "../components/containers/userList";
 
-function userList({ userp }) {
+function userList({ userList }) {
   return (
     <div>
       <h2>Nombre :{userList.nombre}</h2>
@@ -20,4 +19,4 @@ userList.propTypes = {
   estado: PropTypes.bool,
 };
 
-export default Usuarios;
+export default userList;
